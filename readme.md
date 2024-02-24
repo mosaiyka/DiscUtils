@@ -25,7 +25,7 @@ bot = client("TOKEN", prefix="!", onlyone=True)
 
 @bot.ready
 def ready(data):
-	print(f"Logged in as: {data['username']}")
+	print(f"Logged in as: {data.username}")
 
 @bot.command("oldping")
 def oldping(m, args=None):
