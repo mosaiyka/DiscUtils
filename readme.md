@@ -19,14 +19,13 @@
 ### Быстрый старт
 
 ```python
-import DiscUtils
-from DiscUtils import embeds
+from DiscUtils import embeds, client
 
 bot = client("TOKEN", prefix="!", onlyone=True)
 
 @bot.ready
 def ready(data):
-	print("Logged in as: {data['username']}")
+	print(f"Logged in as: {data['username']}")
 
 @bot.command("oldping")
 def oldping(m, args=None):
