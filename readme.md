@@ -1,5 +1,5 @@
 ## DiscordUtils
-[![DiscUtils  - 1.7.91](https://img.shields.io/badge/DiscUtils_-1.7.91-2ea44f)](https://)
+[![DiscUtils  - 1.8.0](https://img.shields.io/badge/DiscUtils_-1.8.0-2ea44f)](https://)
 
 
 ![](/data/DiscUtils.png "")
