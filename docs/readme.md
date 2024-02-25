@@ -138,3 +138,6 @@
 - - media_type - размер медиа (large, mini)
 - - media_url - сылочкк
 - - description - описание
+
+## `bot.fetch_members()`
+- [Подробнее тама](fetch_members.md)
